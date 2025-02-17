@@ -52,7 +52,7 @@ The NMPC algorithm considers constraints on both the "speed" and "SoC", as well 
    - A custom Simulink block or subsystem that contains the vehicle dynamics.
    - Uses the equations of motion to simulate the real-world behavior of the vehicle under different torques, resistances, and battery states.
 
-5. "Function Inside the Plant Model" (the last file mentioned):
+5. "Function Inside the Plant Model" :
    - A supporting function (or set of functions) that define the exact state equations:
      - "`myStateFcn`" calculates the time derivatives of the states.
      - "`myOutputFcn`" returns the measured outputs (in this case, velocity and SoC).
